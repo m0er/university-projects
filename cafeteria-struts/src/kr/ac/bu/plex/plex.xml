@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="plex">
+	<typeAlias alias="menuVO" type="kr.ac.bu.plex.MenuVO"/>	
+	<typeAlias alias="reservationVO" type="kr.ac.bu.plex.ReservationVO"/>
+	
+	<insert id="setMenu" parameterClass="menuVO">
+		INSERT INTO menu (title, price, building, provide_date)
+		VALUES (#title#, #price#, #building#, #provideDate#)
+	</insert>
+	
+	<select id="getMenu" parameterClass="map" resultClass="menuVO">
+		SELECT id, price, title, building, provide_date provideDate
+		FROM menu
+		WHERE provide_date = #searchDate#
+		AND building = #building#
+	</select>
+	
+	<select id="getReservations" parameterClass="map" resultClass="reservationVO">
+		SELECT reservation.id id, client.id clientID, client.name, client.department, menu.title, menu.id menuID, reservation.reserve_date reserveDate, reservation.type
+		FROM reservation, client, menu
+		WHERE reserve_date = #reserveDate#
+		AND menu.building = #building#
+		AND client.id = reservation.client_id
+		AND menu.id = reservation.menu_id
+	</select>
+	
+	<insert id="setReservation" parameterClass="reservationVO">
+		INSERT INTO reservation (client_id, menu_id, reserve_date, type)
+		VALUES (#clientID#, #menuID#, #reserveDate#, #type#)
+	</insert>
+	
+	<delete id="deleteReservation" parameterClass="int">
+		DELETE FROM reservation
+		WHERE id = #value#
+	</delete>
+</sqlMap>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+	<!--
+		================================================ Form Bean Definitions
+	-->
+	<form-beans>
+		<form-bean name="commonForm"
+			type="org.apache.struts.validator.LazyValidatorForm"/>
+	</form-beans>
+	<!--
+		========================================= Global Exception Definitions
+	-->
+	<global-exceptions>
+	</global-exceptions>
+	<!--
+		=========================================== Global Forward Definitions
+	-->
+	<global-forwards>
+		<forward name="testok" path="/testok.jsp"/>
+		<forward name="guestbookForward" path="/guestbook.jsp"/>
+		<forward name="guestbookRedirect" path="/guestbook.do" redirect="true"/>
+		<forward name="indexForward" path="/index.jsp"/>
+		<forward name="indexRedirect" path="/index.do" redirect="true"/>
+		<forward name="postRedirect" path="/post.do" redirect="true"/>
+		<forward name="writepost" path="/writepost.jsp"/>
+		<forward name="changepost" path="/changepost.jsp"/>
+	</global-forwards>
+	<!--
+		=========================================== Action Mapping Definitions
+	-->
+	<action-mappings>
+		<action path="/guestbook" type="com.moerog.guestbook.GuestBookAction"
+			parameter="add,list,delete,default=list"
+			name="commonForm" input="guestbook.jsp" validate="false"/>
+		
+		<action path="/user" type="com.moerog.user.UserAction"
+			parameter="register,login,logout,adminLogin,default=login"
+			name="commonForm" input="header.jsp" validate="false"/>
+		
+		<action path="/post" type="com.moerog.post.PostAction"
+			parameter="add,list,delete,modify,write,change,default=list"
+			name="commonForm" input="writepost.jsp" validate="false"/>
+		
+		<action path="/comment" type="com.moerog.comment.CommentAction"
+			parameter="add,delete"
+			name="commonForm" input="comment.jsp" validate="false"/>
+		
+		<action path="/index" type="com.moerog.index.IndexAction"/>
+	</action-mappings>
+	
+	<!--
+		Controller. 스트럿츠의 기본 컨트롤러로 전처리 과정에 필요한 행동을
+		오버라이드해서 추가할 수 있다. (모든 request, response 객체는 이
+		컨트롤러를 지나간다.
+		Tiles -> TilesRequestProcessor
+	-->
+	<controller processorClass="com.moerog.controller.BasicRequestProcessor"/>
+	 
+	<!--
+		======================================== Message Resources Definitions
+	-->
+	<!--
+		=============================================== Plug Ins Configuration
+	-->
+	<!--
+		======================================================= Tiles plugin
+	-->
+	<!--
+		=================================================== Validator plugin
+	-->
+</struts-config>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/moeruniv/!svn/ver/45/trunk/meet-up/src/moer/meetup/meeting
+END
+Meeting.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/moeruniv/!svn/ver/26/trunk/meet-up/src/moer/meetup/meeting/Meeting.java
+END
+MeetingService.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/moeruniv/!svn/ver/27/trunk/meet-up/src/moer/meetup/meeting/MeetingService.java
+END
+Attendee.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/moeruniv/!svn/ver/26/trunk/meet-up/src/moer/meetup/meeting/Attendee.java
+END
+MeetingController.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/moeruniv/!svn/ver/45/trunk/meet-up/src/moer/meetup/meeting/MeetingController.java
+END

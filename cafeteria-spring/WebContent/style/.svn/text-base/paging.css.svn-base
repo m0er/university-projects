@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+
+ul.comment li {
+    padding: 2px;
+    font-family: georgia;
+    font-size: 0.8em;
+    color: black;
+    width: 180px;
+    margin-bottom: 1px;
+    clear: both;
+}
+
+ul.simplePagerNav li{
+    display:block;
+    floaT: left;
+    padding: 3px;
+    margin-bottom: 10px;
+    font-family: georgia;
+}
+
+ul.simplePagerNav li a{
+    color: #333;
+    text-decoration: none;
+}
+
+li.currentPage {
+    background: #83bd63;	
+}
+
+ul.simplePagerNav li.currentPage a {
+	color: #fff;	
+}

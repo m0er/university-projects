@@ -1,0 +1,27 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 23
+/svn/moeruniv/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/moeruniv/!svn/ver/45/trunk/meet-up/src
+END
+log4j.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/moeruniv/!svn/ver/11/trunk/meet-up/src/log4j.dtd
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/moeruniv/!svn/ver/22/trunk/meet-up/src/log4j.xml
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/moeruniv/!svn/ver/11/trunk/meet-up/src/applicationContext.xml
+END

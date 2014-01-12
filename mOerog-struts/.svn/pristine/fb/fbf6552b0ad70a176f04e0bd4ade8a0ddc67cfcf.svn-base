@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhg8pyete0-l9bsm1">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="__options" value="is.diagram.children.filtering.by.default=false&#10;option.nlayout.recursive=true"/>
+		<reference referencedUin="jdt:e_class:src:com.moerog.config.ActionListener">
+			<property name="bounds" value="5,5,153,137"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

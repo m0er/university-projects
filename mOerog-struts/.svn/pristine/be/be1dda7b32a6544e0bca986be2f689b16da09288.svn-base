@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<nodeSet  version="1.1">
+	<view uin="V1hexuhg8pyetdzi57sy6">
+		<property name="$defaultDiagram" value="true"/>
+		<property name="$metaclass" value="ClassDiagram20"/>
+		<property name="__options" value="is.diagram.children.filtering.by.default=false&#10;option.nlayout.recursive=true"/>
+		<reference referencedUin="design:view:::i57hlg8pyse8c-p87z1l">
+			<property name="bounds" value="0,0,132,90"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:com.moerog.comment.CommentAction">
+			<property name="bounds" value="25,135,151,107"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+		<reference referencedUin="jdt:e_class:src:com.moerog.comment.CommentVO">
+			<property name="bounds" value="175,-4,160,137"/>
+			<property name="location_set_by_user" value="true"/>
+		</reference>
+	</view>
+</nodeSet>

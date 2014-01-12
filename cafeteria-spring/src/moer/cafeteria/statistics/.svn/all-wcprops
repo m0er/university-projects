@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/foodsystem/!svn/ver/57/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/statistics
+END
+StatisticsController.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/foodsystem/!svn/ver/44/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/statistics/StatisticsController.java
+END
+Statistics.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/foodsystem/!svn/ver/41/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/statistics/Statistics.java
+END
+StatisticsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/foodsystem/!svn/ver/28/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/statistics/StatisticsService.java
+END
+StatisticsServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/foodsystem/!svn/ver/57/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/statistics/StatisticsServiceImpl.java
+END

@@ -1,0 +1,1 @@
+INSERT INTO client(id, pw, name, department, type) VALUES('20056734', 'test', '진송이', '정보통신학부', 'USER');

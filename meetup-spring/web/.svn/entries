@@ -1,0 +1,84 @@
+10
+
+dir
+45
+https://dev.naver.com/svn/moeruniv/trunk/meet-up/web
+https://dev.naver.com/svn/moeruniv
+
+
+
+2011-12-14T16:36:41.813741Z
+45
+cys703
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d4e94d14-49fb-4301-bc83-9255a7537b53
+
+
+
+
+
+
+0
+
+META-INF
+dir
+
+WEB-INF
+dir
+
+css
+dir
+
+image
+dir
+
+js
+dir
+
+start.jsp
+file
+
+
+
+
+2011-12-14T13:32:32.000000Z
+c3975e1320bb5e7454386f0e54d481ce
+2011-12-14T14:27:50.032594Z
+42
+cys703
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+371
+

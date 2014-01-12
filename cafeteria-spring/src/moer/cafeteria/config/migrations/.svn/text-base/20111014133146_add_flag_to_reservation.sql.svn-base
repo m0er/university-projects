@@ -1,0 +1,1 @@
+ALTER TABLE reservation ADD confirmed BOOLEAN NOT NULL DEFAULT 0; 

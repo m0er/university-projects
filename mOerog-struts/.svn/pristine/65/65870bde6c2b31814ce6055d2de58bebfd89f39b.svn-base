@@ -1,0 +1,99 @@
+body {color: #474a51; font-weight: 500; margin: 0 auto; padding: 0; width: 760px; font-family: Verdana, "맑은 고딕", sans-serif; background: #f4f4ed; line-height: 1.6;}
+body strong {font-weight: 900;}
+body a {color: #2f73ff; font-weight: bold;}
+body a:hover {color: #306575;}
+
+/* 배너 스타일 */
+#banner1 {width: 760px; text-align: center; margin-top: 10px; background-color: white;}
+.banner2, .banner3 {width: 160px; margin-bottom: 10px;}
+#league_esl #banner1 img {width: 760px;}
+#league_clanbase #banner1 {background: #300000;}
+
+/* 헤더 스타일 */
+#header {background: #383d44; padding-bottom: 10px; border-right: 5px solid #7b828c; border-bottom: 5px solid #555; border-left: 1px solid #888; line-height: 0.8; padding-top: 10px;}
+#header em {font-size: 30%; font-style: normal; margin-left: 4px; color: #7b828c;}
+#header h1 {margin-left: 130px; margin-top: 10px; font-size: 600%;}
+#header a {font-family: "Arial Black", helvetica, sans-serif; color: silver;}
+#login, #logout {text-align: center; width: 750px; background-color: #e0e0d5; padding: 5px; margin-top: 10px; font-size: 120%;}
+#login a, #logout a {cursor: pointer;}
+#login #loginForm, #login #registerForm {text-align: right; margin-right: 300px;}
+#login #loginForm input, #login #registerForm input {width: 100px;}
+#login #loginForm .btn {width: 60px;}
+#login #registerForm .btn {width: 40px;}
+
+/* 네비게이션 스타일 */
+#wrap {float: left; width: 155px; margin-top: 10px; margin-left: 5px;}
+#sidebar {width: 159px; margin: 0; margin-bottom: 10px; background: #383d44;}
+#sidebar ul {list-style: none; padding: 0;}
+#sidebar a, #sidebar h2 {font: bold 11px/16px arial, helvetica, sans-serif; display:block; border-width: 1px; border-style: solid; border-color: #ccc #888 #555 #bbb; margin: 0; padding: 2px 3px;}
+#sidebar h2 {color: #fff; background: #383d44; text-transform: uppercase;}
+#sidebar a {color: #383d44; background: #7b828c;}
+#sidebar a:hover {color: #306575; background: #fff;}
+#sidebar ul ul ul {position: absolute; top: 0; left: 0;}
+#sidebar ul ul ul a {background: #777;}
+#sidebar li {position: relative;}
+#sidebar ul ul ul {position: absolute; top: 0; left: 100%; width: 100%;}
+div#sidebar ul ul ul, div#sidebar ul ul li:hover ul ul {display: none;}
+div#sidebar ul ul li:hover ul, div#sidebar ul ul ul li:hover ul {display: block;}
+
+/* 네비게이션 - 프로필 스타일 */
+#wrap #profile {text-align: center; width: 155px; font-size: 1.2em; border: 2px solid #e0e0d5; margin-bottom: 10px;}
+#wrap #profile .writePost {font-size: 1em;}
+#wrap #profile .ccl {padding: 5px;}
+#wrap #profile form {margin-top: 5px; text-align: right;}
+#wrap #profile form p {margin-right: 10px;}
+#wrap #profile form .login {width: 100px;}
+
+/* 메인 콘텐츠 스타일 */
+#content {float: right; width: 580px; background: #f4f4ed; font-size: 120%; margin: 10px 10px 10px 10px;}
+#content h2 {font-size: 120%;}
+#content h3 {color: #085829;}
+#content strong {color: #2f7375;}
+#content .imgRight {float: right;}
+#content .contents img {vertical-align: middle;}
+#content .display .left {margin: 10px 10px 5px 10px;}
+#content .display .right {margin: 10px 10px 0px 0px;}
+#content .left {float: left;}
+#content .right {float: right;}
+#content .display .right {text-align: right;}
+#content .display .writer {line-height: 1; font-size: 90%; word-spacing: -1px;}
+#content .contents {clear: both; border-top: 2px dotted #e0e0d5; margin: 10px; margin-top: 0; padding-top: 10px;}
+#content .border {margin: 0 5px 10px 5px; border: 2px solid #e0e0d5;}
+#content .contents h3, #content .contents p, #content .contents dl dt, #content .contents dl dd {margin-bottom: 10px;}
+#content .contents dl dt {font-weight: bold;}
+#content .contents dl dd {margin-left: 5px;}
+#content .footer {text-align: center; padding: 10px;}
+#content .category {padding: 0 10px; margin-bottom: 0; color: #383d44;; background-color: #e0e0d5; border: none;}
+#content .innerFooter {clear: both; background-color: #e0e0d5; text-align: right;}
+#content .innerFooter img, #content .btn {cursor: pointer; margin-right: 5px; vertical-align: middle;}
+#content form {margin: 0px; text-align: left;}
+#content form .postForm {width: 340px; margin-bottom: 5px;}
+#content .border form {vertical-align: middle; margin-top: 5px;}
+
+#writePost #content form .category, #modifyPost #content form .category {padding: 0; margin: 0; background: silver; text-align: left;}
+#writePost #content form .category h3, #modifyPost #content form .category h3 {margin-left: 5px; color: white;}
+#writePost #content form textarea, #modifyPost #content form textarea {border: 2px solid silver; padding: 0; margin: 0; width: 562px;}
+#homepage #content .empty {text-align: center; margin: 50px 0; font-weight: bold; clear: both;}
+#content .empty {text-align: center; margin: 10px 0; font-weight: bold; clear: both; margin-top: 100px;}
+#content #commentForm {width: 566px; margin: 0; margin-top: -5px;}
+#content .comment {margin-bottom: 10px;}
+#content form textarea {width: 100%; height: 70px; padding: 0;}
+#writePost #content form textarea {height: 500px;}
+
+/* 메인 콘텐츠 - 탭 스타일 */
+/*
+#tab {float: left; width: 100%; margin: 0; padding: 10px 0 0 46px; list-style: none;}
+#tab li {float: left; margin: 0; padding: 0;}
+#tab a {float: left; display: block; margin: 0 1px 0 0; padding: 0 8px 0 8px; color: #f4f4ed; border: 2px solid #e0e0d5; border-bottom: none; background: #383d44;}
+#content #wrap_tab {position: relative; top: -20px; left: -30px; margin-top: 10px;}
+#league_esl #content .empty, #league_clanbase #content .empty {margin-top: 100px;}
+#league_esl #content .display .left, #league_clanbase #content .display .left {margin-top: -3px;}
+#tab a:hover, body#league_esl #tab_esl a, body#league_clanbase #tab_clanbase a {background: #f4f4ed; color: #306575;}
+*/
+/* 메인 콘텐츠 - 방명록 스타일 */
+#guestbook #userName, #guestbook #userPassword {width: 100px;}
+#guestbook #content form textarea {width: 100%; height: 70px; padding: 0;}
+#guestbook #content .inputBox {margin: 5px 0 5px 5px;}
+#guestbook #content form input, #content form textarea {font-family: Vernada, "맑은 고딕", sans-serif; font-size: 100%;}
+#guestbook #content .right input {width: 100px;}
+#guestbook #content form {width: 566px;}

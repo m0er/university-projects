@@ -1,0 +1,4 @@
+driver=net.sf.log4jdbc.DriverSpy
+url=jdbc:log4jdbc:mysql://localhost/food_system
+user=bu
+pword=food

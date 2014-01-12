@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/foodsystem/!svn/ver/54/trunk/cafeteria-reservation-system-for-bu/WebContent/WEB-INF
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/foodsystem/!svn/ver/23/trunk/cafeteria-reservation-system-for-bu/WebContent/WEB-INF/web.xml
+END
+spring-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/foodsystem/!svn/ver/23/trunk/cafeteria-reservation-system-for-bu/WebContent/WEB-INF/spring-servlet.xml
+END

@@ -1,0 +1,85 @@
+/* 헤더 스타일 */
+#header {height: 60px; margin-bottom: 5px; vertical-align: middle;}
+#header h1 {float: right; margin-top: 18px; text-align: center; width: 545px; border-bottom: 5px solid #DCDCDC;}
+#header .header_eng {color: #CECECE; font-size: 0.7em;}
+
+/* 메인, 예약, 통계 페이지 글로벌 스타일 */
+#index, #reservation, #statistics, #comment {font-size: 1.1em; width: 754px; margin: 0 auto; font-family: "나눔고딕";}
+#logo {float:left; margin: 5px;}
+#index_nav, #reservation_nav, #statistics_nav, #comment_nav {float: left; width: 160px; border: 3px solid #33ABCE; border-bottom: 8px solid #33ABCE; font-size: 0.8em; margin-left: 10px; padding: 5px;}
+nav span {color: #666;}
+nav a:LINK {color: #666;}
+nav a:VISITED {color: #666;}
+nav ul li a:HOVER, nav ul li span:HOVER {background-color: #3A8EA7; color: #FFF; font-size: 1em; font-weight: bold;}
+nav a:ACTIVE {}
+nav h2 {margin-left: 5px; margin-bottom: 5px; color: #2D78A0; font-size: 1.2em;}
+nav ul {margin-left: 5px;}
+nav ul li a, nav ul li span {display: block; margin-bottom: 5px; padding: 1px; cursor: pointer;}
+#index_content, #reservation_content, #statistics_content, #comment_content {width: 500px; border: 2px solid #33ABCE; margin: 10px 10px 10px 200px; padding: 10px; padding-left: 30px; font-size: 0.8em; color: #444; background: url('/cafeteria/image/edited_bu_logo.jpg') no-repeat center center;}
+#index_content h2, #reservation_content h2, #statistics_content h2, #comment_content h2 {font-size: 1.2em; margin-bottom: 10px; color: #2D78A0;}
+#index_content h3, #reservation_content h3, #statistics_content h3, #comment_content h3 {font-size: 1em; margin: 5px 0; color: #2D78A0;}
+
+/* 메인 페이지 스타일 */
+#index_nav form p {margin-bottom: 3px;}
+#index_nav form .text {width: 70px; margin-left: 5px; vertical-align: middle; color: #666;}
+input[type=submit] {padding: 0 0.5em; font-size: inherit; font-family: inherit;}
+label[for=admin] {vertical-align: top;}
+#index_content {height: 200px;}
+
+/* 예약 페이지 스타일 */
+#empty_reservation {margin: 50px 50px;}
+#reservation_lunch_reservation_list p, #reservation_normal_reservation_list p {margin-bottom: 2px;}
+
+/* 예약 페이지 - 테이블 스타일 */
+#reservation_content table {border-collapse: collapse; margin-bottom: 20px; width: 100%; border: 1px solid #666;} 
+#reservation_content table caption {font-size: 1em; margin: 0; padding: 4px 4px; border: 1px solid #666; border-bottom: none; color: #2D78A0; font-weight: bold; text-align: left;}
+#reservation_content table tr:HOVER {background-color: #C5FFE9;}
+#reservation_content table tr.confirmed {background-color: #CCC;}
+#reservation_content table tr.rated {background-color: #CCC;}
+#reservation_content table tr.confirmed:HOVER {background-color: #CCC;}
+#reservation_content table tr.rated:HOVER {background-color: #CCC;}
+#reservation_content table tr td a:LINK {color: #666;}
+#reservation_content table tr td a:HOVER {color: #3d80df; font-weight: bold; font-size: 1em;}
+#reservation_content table th, #reservation_content table td {margin: 0; padding: 4px 4px; text-align: center; border-bottom: 1px solid #b5b5b5;}
+#reservation_content table th {background-color: #AFECFF;}
+#reservation_content table button {font-size: 0.8em; font-family: inherit;}
+
+/* 예약 페이지 - 폼 스타일 */
+#reservation_content form, #reservation_form2 {display: none;}
+#reservation_content form fieldset {margin-bottom: 1em; padding: 1em;}
+#reservation_content form fieldset.sub {padding: 0.5em;}
+#reservation_content form fieldset legend {font-size: 1.2em; margin-bottom: 10px; color: #2D78A0; font-weight: bold;}
+#reservation_content form fieldset legend.sub {font-size: 1em;}
+#reservation_content form label {display: block; font-size: 1em; margin: 5px 0; color: #2D78A0; font-weight: bold;}
+#reservation_content form label.radioText {display: inline; color: #444; font-size: 0.9em;}
+#reservation_content form input.text, #reservation_content form select.text {width: 200px; margin-bottom: 10px;}
+#reservation_content form input:focus {background: #DCDCDC;}
+#reservation_content form input.radio, input.submit {width: auto;}
+#reservation_content form button, #reservation_content form input[type=submit] {font-size: 0.8em; font-family: inherit;}
+#reservation_content form input[type=submit] {padding: 5px 12px}
+
+/* 예약 페이지 - 예약 폼 - 커멘트 섹션 스타일 */
+#reservation_form2 section {display: none; float: right; width: 200px; height: 95px; font-size: 0.8em; margin-right: 20px; padding: 5px; border: 1px solid #33ABCE;}
+#reservation_form2 section header {float: left; font-weight: bold; margin-bottom: 5px;}
+#reservation_form2 section p.norated {clear: both; margin-top: 40px; font-size: 1.2em; text-align: center;}
+#reservation_form2 article ul.comment span {font-weight: bold;}
+
+/* 예약 페이지 - 예약 폼 - 스타레이팅 스타일 */
+#stars-wrapper {margin-bottom: 20px;}
+div.simplePagerContainer ul.simplePagerNav li {margin-bottom: 0;}
+div.simplePagerContainer ul.simplePagerNav li.currentPage {background: none repeat scroll 0 0 #33ABCE;}
+
+/* 예약 페이지 - 커멘트 작성 스타일 */
+#dialog-rate-form textarea {clear: both; resize: none; width: 400px; height: 180px;}
+
+/* 예약 페이지 - 캘린더 스타일 */
+#calendar img {margin-left: 5px; margin-bottom: -3px;}
+
+/* 통계 페이지 스타일 */
+
+/* 커멘트 페이지 스타일 */
+#star-rate {display: block; float: left; width: 300px;}
+#star-rate header {float: left; font-weight: bold; margin-bottom: 3px;}
+#comment_content {min-height: 200px;}
+#comment_content select {clear: both;}
+#comment_content .comment {margin: 10px 0;}

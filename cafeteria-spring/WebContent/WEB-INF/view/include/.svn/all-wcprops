@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/foodsystem/!svn/ver/26/trunk/cafeteria-reservation-system-for-bu/WebContent/WEB-INF/view/include
+END
+register_menu.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/foodsystem/!svn/ver/23/trunk/cafeteria-reservation-system-for-bu/WebContent/WEB-INF/view/include/register_menu.jsp
+END
+header.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/foodsystem/!svn/ver/23/trunk/cafeteria-reservation-system-for-bu/WebContent/WEB-INF/view/include/header.jsp
+END
+reserve_menu.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/foodsystem/!svn/ver/26/trunk/cafeteria-reservation-system-for-bu/WebContent/WEB-INF/view/include/reserve_menu.jsp
+END

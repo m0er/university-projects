@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/moeruniv/!svn/ver/45/trunk/meet-up/web/WEB-INF
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/moeruniv/!svn/ver/11/trunk/meet-up/web/WEB-INF/web.xml
+END
+spring-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/moeruniv/!svn/ver/22/trunk/meet-up/web/WEB-INF/spring-servlet.xml
+END

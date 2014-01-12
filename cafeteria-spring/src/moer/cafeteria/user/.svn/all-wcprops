@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/foodsystem/!svn/ver/59/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/user
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/foodsystem/!svn/ver/59/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/user/User.java
+END
+UserService.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/foodsystem/!svn/ver/23/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/user/UserService.java
+END
+UserServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/foodsystem/!svn/ver/23/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/user/UserServiceImpl.java
+END
+UserController.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/foodsystem/!svn/ver/23/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/user/UserController.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/moeruniv/!svn/ver/44/trunk/meet-up/src/moer/meetup/persistence
+END
+CalendarMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/moeruniv/!svn/ver/44/trunk/meet-up/src/moer/meetup/persistence/CalendarMapper.java
+END
+UserMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/moeruniv/!svn/ver/21/trunk/meet-up/src/moer/meetup/persistence/UserMapper.java
+END
+MeetingMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/moeruniv/!svn/ver/44/trunk/meet-up/src/moer/meetup/persistence/MeetingMapper.java
+END
+EventMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/moeruniv/!svn/ver/42/trunk/meet-up/src/moer/meetup/persistence/EventMapper.java
+END

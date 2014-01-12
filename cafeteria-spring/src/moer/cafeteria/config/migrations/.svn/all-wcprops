@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/foodsystem/!svn/ver/57/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/config/migrations
+END
+20111014133146_add_flag_to_reservation.sql
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/foodsystem/!svn/ver/23/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/config/migrations/20111014133146_add_flag_to_reservation.sql
+END
+20111017071939_remove_reservationid_and_add_menuid_to_rate.sql
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/foodsystem/!svn/ver/23/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/config/migrations/20111017071939_remove_reservationid_and_add_menuid_to_rate.sql
+END
+20111017064313_add_rate_table.sql
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/foodsystem/!svn/ver/23/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/config/migrations/20111017064313_add_rate_table.sql
+END
+20111016112058_add_user.sql
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/foodsystem/!svn/ver/23/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/config/migrations/20111016112058_add_user.sql
+END
+20110916080717_create_client_and_reservation.sql
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/foodsystem/!svn/ver/57/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/config/migrations/20110916080717_create_client_and_reservation.sql
+END
+20111013091325_alter_admin_client.sql
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/foodsystem/!svn/ver/23/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/config/migrations/20111013091325_alter_admin_client.sql
+END
+20111018035911_add_building_to_rate.sql
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/foodsystem/!svn/ver/23/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/config/migrations/20111018035911_add_building_to_rate.sql
+END
+20111017075755_add_rated_flag_to_reservation.sql
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/foodsystem/!svn/ver/23/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/config/migrations/20111017075755_add_rated_flag_to_reservation.sql
+END

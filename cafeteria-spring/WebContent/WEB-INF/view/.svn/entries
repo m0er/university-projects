@@ -1,0 +1,40 @@
+10
+
+dir
+60
+https://dev.naver.com/svn/foodsystem/trunk/cafeteria-reservation-system-for-bu/WebContent/WEB-INF/view
+https://dev.naver.com/svn/foodsystem
+
+
+
+2011-12-11T17:54:09.057075Z
+54
+cys703
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+520fcaf6-3b86-0410-a140-df32eb3e0c5b
+
+include
+dir
+
+index
+dir
+
+reservation
+dir
+
+statistics
+dir
+

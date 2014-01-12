@@ -1,0 +1,1 @@
+ALTER TABLE reservation ADD rated BOOLEAN NOT NULL DEFAULT 0;

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/foodsystem/!svn/ver/57/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/config
+END
+cafeteria-schema.sql
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/foodsystem/!svn/ver/50/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/config/cafeteria-schema.sql
+END
+cafeteria.properties
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/foodsystem/!svn/ver/57/trunk/cafeteria-reservation-system-for-bu/src/moer/cafeteria/config/cafeteria.properties
+END

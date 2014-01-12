@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="post">
+	<typeAlias alias="postVO" type="com.moerog.post.PostVO"/>
+	 
+	<insert id="add" parameterClass="postVO">
+		<selectKey keyProperty="postId">
+			SELECT seq_post_id.nextval FROM DUAL
+		</selectKey>
+		INSERT INTO moerogPost(post_id, post_category, post_title, post_content, admin_nickname)
+		VALUES (#postId#, #postCategory#, #postTitle#, #postContent#, #adminNickname#)
+	</insert>
+	
+	<select id="list" resultClass="postVO" parameterClass="int">
+		SELECT post_id as postId, post_category as postCategory, post_datetime as postDatetime, post_title as postTitle, post_content as postContent, admin_nickname as adminNickname
+		FROM moerogPost
+		WHERE post_category = #value#
+		ORDER BY post_id DESC
+	</select>
+	
+	<select id="totalCount" resultClass="long" parameterClass="int">
+		SELECT count(*) FROM moerogPost WHERE post_category = #value#
+	</select>
+	
+	<delete id="delete" parameterClass="map">
+		DELETE FROM moerogPost
+		WHERE 1=1
+		AND post_id = #postId#
+		AND post_category = #postCategory#
+		AND admin_nickname = #adminNickname#
+	</delete>
+	
+	<update id="modify" parameterClass="postVO">
+		UPDATE moerogPost
+		SET post_Title = #postTitle#, post_content = #postContent#
+		WHERE 1=1
+		AND post_category = #postCategory#
+		AND post_id = #postId#
+		AND admin_nickname = #adminNickname#
+	</update>
+	
+	<select id="getPost" parameterClass="postVO" resultClass="postVO">
+		SELECT post_id as postId, post_category as postCategory, post_datetime as postDatetime, post_title as postTitle, post_content as postContent, admin_nickname as adminNickname
+		FROM moerogPost
+		WHERE 1=1
+		AND post_category = #postCategory#
+		AND post_id = #postId#
+		AND admin_nickname = #adminNickname#
+	</select>
+	
+	<select id="getIndex" parameterClass="int" resultClass="postVO">
+		SELECT post_id as postId, post_category as postCategory, post_datetime as postDatetime, post_title as postTitle, post_content as postContent, admin_nickname as adminNickname
+		FROM (
+			SELECT * FROM moerogPost WHERE post_category = #value# ORDER BY post_id DESC
+		)
+		WHERE ROWNUM = 1
+	</select>
+</sqlMap>

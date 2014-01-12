@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS cafeteria;
+GRANT ALL PRIVILEGES ON cafeteria.* TO 'cafeteria'@'%' IDENTIFIED BY 'admin';
+FLUSH PRIVILEGES;
