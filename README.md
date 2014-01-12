@@ -1,6 +1,21 @@
 대학교에서 진행했던 텀/졸업 프로젝트 모음
 ===================
 
+mOerog
+--------------------------------
+
+### 설명
+깃헙엔 두 가지 버전밖에 없지만 사실 세 가지 버전으로 만들어졌던 블로그 입니다.
+
+처음 ASP 클래식 버전을 학교에서 배울 때 ASP + MSSQL + XHTML을 공부해 만들었고, 스트럿츠를 공부한 후에 [스트럿츠 기반](mOerog-struts)으로 리팩토링 하고 그 후에 [스프링 기반](mOerog-spring)으로 다시 만들었습니다.
+
+첫 버전을 만들 때 원래 교수님은 ASP에 HTML 4.0 기반으로 수업을 진행하셨는데 너무 시대에 뒤떨어져 있다고 생각하고 XHTML을 공부해 적용하고 요구사항에 없던 DB 연동도 해봤습니다. 원래 자바스크립트는 사용하지 말라고 하셨는데 로그인 하는 상단바 부분에 토글하는 코드가 살짝 들어가 있습니다. ;-)
+
+### 스크린샷
+![메인](resources/screenshot/mOerog/main.png?raw=true)
+![카테고리>미디아](resources/screenshot/mOerog/media.png?raw=true)
+![방명록](resources/screenshot/mOerog/guestbook.png?raw=true)
+
 IEPBU
 --------------------------------
 
