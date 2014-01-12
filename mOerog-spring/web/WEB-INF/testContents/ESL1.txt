@@ -1,0 +1,23 @@
+<h3>ESL has announced their first season for North America.</h3>
+			<p>Yesterday, ESL-America announced their first season of 5vs5 play in North America.</p>
+			<p>This will be a complete season with two separate divisions, open and main. Both divisions will be free and will be played on the Aequitas Anti-Cheat Client.</p>
+			<p>ESL has previously had the InferoBlaze Weekend and New Years Cup events. Both of these events led to a higher demand for ESL to come out with a season in North America and although the first season will not have cash prizes, the first place finishers will earn a 12 month premium membership to ESL itself.</p>
+			<p>When we asked Michal Kucharz, Master Admin of America, about what he expects from the first season in North America, he had this to say:</p>
+			<p>“We hope that the American CS community will take part in this season and help us make it grow. With each successful season we have, there is no telling how fast the ESL will grow and expand to help the American CS Community. We have been very successful in the European countries and hope that North America will embrace us too.”</p>
+			<p>Open Division Details:</p>			
+			<p><strong>Countries:</strong> United States, Canada<br />
+			<strong>Maps:</strong> dust2, inferno, train, nuke, tuscan<br />
+			<strong>Scoring:</strong> MR15 play to win<br />
+			<strong>Overtime:</strong> MR5 with $10,000<br />
+			<strong>Sides:</strong> knife for sides<br />
+			<strong>Anticheat:</strong> Aequitas required for each match</p>		
+			<br />
+			<p>Main Division Details:</p>
+			<p><strong>Countries:</strong> United States, Canada<br />
+			<strong>Maps:</strong> dust2, inferno, train, nuke, tuscan<br />
+			<strong>Scoring:</strong> MR15 play to win<br />
+			<strong>Overtime:</strong> MR5 with $10,000<br />
+			<strong>Sides:</strong> knife for sides<br />
+			<strong>Anticheat:</strong> Aequitas required for each match</p><br />
+
+			<p>Sign-up and more detailed information can be found <a href="http://www.esl-america.net/us/cs/news/78546/" title="Sign Up">here</a>.</p>

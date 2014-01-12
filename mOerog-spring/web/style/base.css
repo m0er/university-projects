@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+body {font-size: 62.5%;}
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, form, blockquote, dl dd {padding: 0; margin: 0;}
+h1, h2, h3, h4, h5, h6, pre, code {font-size: 1em;}
+a {text-decoration: none;}
+a img {border: none;}
+table {border-collapse: collapse; margin: 5px 0;}
+table tr th, table tr td {border: 1px solid black;}
+ol {margin-left: 20px;}
+ol li ol li {list-style-type: upper-roman;}
+ol li ol li li {list-style-type: circle;}
+ol li ol li li li {list-style-type: square;}
+ol li table tr td ul {margin-left: 20px;}
+ol ol li table tr td ul  {margin-left: 20px;} 

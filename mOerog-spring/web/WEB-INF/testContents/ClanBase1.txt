@@ -1,0 +1,18 @@
+<p>A small update to Team Fortress 2 has been released which contains some fixes and changes to the game in preparation for 'future features'.</p>
+		<img src="http://static.clanbase.com/CB/images/news/2008/TF2_Logo.jpg" alt="Team Fortress 2 Logo" />
+		<dl>
+			<dt>Game changes</dt>
+			<dd>Reworked the character loadout screens to support future features</dd>
+			<dd>Added the ability for players to permanently delete items from their inventory using the new Backpack menu. This does not reset achievements. Once an item has been deleted it can never be re-earned</dd>
+			<dd>Added the ability for players to reset their player stats using the Reset Stats button on the Stats menu. This does not reset achievements</dd>
+			<dd>Added a "player_teleported" game event that is sent when a player is teleported</dd>
+			<dd>Updated cp_junction_final to score per-capture instead of per-round. This fixes the map not working correctly with Tournament mode and the stopwatch</dd>
+			<dd>Scouts now drop the flag if they're carrying it when they start phasing</dd> 
+		</dl>
+		<dl>
+			<dt>Fixes</dt>
+			<dd>Fixed instances where Steam connection problems would cause some unlocked items to be unusable</dd>
+			<dd>Fixed the custom crosshair menu not clearing itself when "None" is selected for non-English clients</dd>
+			<dd>Fixed warning about not being able to execute skill1.cfg when starting the dedicated server</dd>
+		</dl> 
+		<p>The updates will be applied automatically when your Steam client is restarted.</p>

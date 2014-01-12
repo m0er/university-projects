@@ -1,0 +1,5 @@
+<object type="application/x-shockwave-flash" style="width:480px; height:392px;" data="http://www.gametrailers.com/remote_wrap.php?mid=48459">
+		<param name="movie" value="http://www.gametrailers.com/remote_wrap.php?mid=48459" />
+		<param name="wmode" value="opaque" /></object><br /><br />		
+		<p>Volition 개발 THQ 유통의 레드 팩션: 게릴라 입니다. PC로 북미에 6월 9일 발매할 예정입니다.</p>
+		<p>전작에서 이미 레드 팩션만의 고유한 아이덴티티를 선보인 바 있는데요. 이번 레드 팩션: 게릴라는 이미 유저로 이루어진 베타 테스터 1만여명이 참여해 게임의 완성도를 최대로 올렸다는 후문입니다. 울펜슈타인 2가 발매되기 전까지는 이쪽 계열 FPS에서 왕좌로 군림할 듯 하네요 :)</p>
